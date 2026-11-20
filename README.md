@@ -13,7 +13,7 @@
 - 版本：ImmortalWrt `25.12-SNAPSHOT`
 - 目标：`x86/64`
 - Profile：`generic`
-- Rootfs 分区：`1024` MB
+- Rootfs 分区：`512` MB
 - ImageBuilder URL：
   `https://downloads.immortalwrt.org/releases/25.12-SNAPSHOT/targets/x86/64/immortalwrt-imagebuilder-25.12-SNAPSHOT-x86-64.Linux-x86_64.tar.zst`
 - 快捷链接：
@@ -164,9 +164,9 @@ About BTF:
 
 The generated image applies these defaults on first boot:
 
-- LAN IP: `192.168.3.252/24`
-- Gateway: `192.168.3.254`
-- DNS: `192.168.3.254`, `223.5.5.5`
+- LAN IP: `192.168.25.253/24`
+- Gateway: `192.168.25.2`
+- DNS: `223.5.5.5`
 - SSH port: `9167`
 
 No root password is written into this repository or the generated image. The
